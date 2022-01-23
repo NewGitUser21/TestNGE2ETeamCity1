@@ -1,0 +1,5 @@
+19:16:45.179 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+19:16:45.184 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+19:16:45.184 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+19:16:45.184 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+19:16:45.185 [AsyncHttpClient-1-3] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
