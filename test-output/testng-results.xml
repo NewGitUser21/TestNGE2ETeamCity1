@@ -32,12 +32,12 @@
       <![CDATA[Driver closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-01-23T19:16:41 IST" name="Suite" finished-at="2022-01-23T19:17:33 IST" duration-ms="52096">
+  <suite started-at="2022-01-24T12:49:03 IST" name="Suite" finished-at="2022-01-24T12:50:07 IST" duration-ms="63533">
     <groups>
     </groups>
-    <test started-at="2022-01-23T19:16:41 IST" name="Validating Page Navigation Bar" finished-at="2022-01-23T19:17:09 IST" duration-ms="28623">
+    <test started-at="2022-01-24T12:49:03 IST" name="Validating Page Navigation Bar" finished-at="2022-01-24T12:49:40 IST" duration-ms="36795">
       <class name="E2EDemoTesting.validateNavigationBar">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-23T19:16:41 IST" name="initialize" finished-at="2022-01-23T19:17:07 IST" duration-ms="26313" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-24T12:49:03 IST" name="initialize" finished-at="2022-01-24T12:49:33 IST" duration-ms="30058" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver is initialized]]>
@@ -47,14 +47,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-23T19:17:07 IST" name="basePageNavigation" finished-at="2022-01-23T19:17:08 IST" duration-ms="525" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-24T12:49:33 IST" name="basePageNavigation" finished-at="2022-01-24T12:49:37 IST" duration-ms="4202" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Navigate Bar is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-23T19:17:08 IST" name="tearDown" finished-at="2022-01-23T19:17:09 IST" duration-ms="1754" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-01-24T12:49:37 IST" name="tearDown" finished-at="2022-01-24T12:49:40 IST" duration-ms="2380" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver closed]]>
@@ -63,9 +63,9 @@
         </test-method> <!-- tearDown -->
       </class> <!-- E2EDemoTesting.validateNavigationBar -->
     </test> <!-- Validating Page Navigation Bar -->
-    <test started-at="2022-01-23T19:16:41 IST" name="Validating Page Title" finished-at="2022-01-23T19:17:12 IST" duration-ms="30891">
+    <test started-at="2022-01-24T12:49:03 IST" name="Validating Page Title" finished-at="2022-01-24T12:49:41 IST" duration-ms="37516">
       <class name="E2EDemoTesting.validateTitle">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-23T19:16:41 IST" name="initialize" finished-at="2022-01-23T19:17:03 IST" duration-ms="21644" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-24T12:49:03 IST" name="initialize" finished-at="2022-01-24T12:49:36 IST" duration-ms="33448" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver is initialized]]>
@@ -75,7 +75,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-23T19:17:03 IST" name="basePageNavigation" finished-at="2022-01-23T19:17:07 IST" duration-ms="4815" status="FAIL">
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-24T12:49:36 IST" name="basePageNavigation" finished-at="2022-01-24T12:49:37 IST" duration-ms="714" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
@@ -118,25 +118,25 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-23T19:17:09 IST" name="tearDown" finished-at="2022-01-23T19:17:12 IST" duration-ms="2461" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-01-24T12:49:39 IST" name="tearDown" finished-at="2022-01-24T12:49:40 IST" duration-ms="1409" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'SOUBHAGYA-PC', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e5b8b22fa38ba72bddfe361fa7b89cab, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54958/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e5b8b22fa38ba72bddfe361fa7b89cab]]>
+Command: [c70d3b9eb5e9fe81002ac0184009cff3, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51593/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c70d3b9eb5e9fe81002ac0184009cff3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'SOUBHAGYA-PC', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e5b8b22fa38ba72bddfe361fa7b89cab, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54958}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54958/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e5b8b22fa38ba72bddfe361fa7b89cab
+Command: [c70d3b9eb5e9fe81002ac0184009cff3, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51593/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c70d3b9eb5e9fe81002ac0184009cff3
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -180,9 +180,9 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- tearDown -->
       </class> <!-- E2EDemoTesting.validateTitle -->
     </test> <!-- Validating Page Title -->
-    <test started-at="2022-01-23T19:16:41 IST" name="Validating Home Page and Traversing through Login" finished-at="2022-01-23T19:17:33 IST" duration-ms="52095">
+    <test started-at="2022-01-24T12:49:03 IST" name="Validating Home Page and Traversing through Login" finished-at="2022-01-24T12:50:07 IST" duration-ms="63533">
       <class name="E2EDemoTesting.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-23T19:16:41 IST" name="initialize" finished-at="2022-01-23T19:17:04 IST" duration-ms="23235" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-24T12:49:03 IST" name="initialize" finished-at="2022-01-24T12:49:35 IST" duration-ms="31919" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver is initialized]]>
@@ -192,14 +192,14 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </line>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-23T19:17:04 IST" name="basePageNavigation" finished-at="2022-01-23T19:17:32 IST" duration-ms="28321" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-24T12:49:35 IST" name="basePageNavigation" finished-at="2022-01-24T12:50:06 IST" duration-ms="31457" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[User Login with Invalid credentials]]>
             </line>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-23T19:17:32 IST" name="tearDown" finished-at="2022-01-23T19:17:33 IST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-01-24T12:50:06 IST" name="tearDown" finished-at="2022-01-24T12:50:07 IST" duration-ms="135" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Driver closed]]>

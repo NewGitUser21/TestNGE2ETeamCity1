@@ -44,12 +44,12 @@ public class validateNavigationBar extends base {
 	public void initialize() throws IOException
 	{
 		driver = initializeDriver();
-		//log.info("Driver is initialized");
+		log.info("Driver is initialized");
 		Reporter.log("Driver is initialized");
 		
         String urlName = prop.getProperty("url");	
 		driver.get(urlName);
-		//log.info("Navigated to Home Page");
+		log.info("Navigated to Home Page");
 		Reporter.log("Navigated to Home Page");
 		
 	}
@@ -83,8 +83,7 @@ public class validateNavigationBar extends base {
 		//Argument expect always to be True
 		Assert.assertTrue(l.getNavigationBar().isDisplayed());
 		
-		//log.info("Navigate Bar is displayed");
-		
+		log.info("Navigate Bar is displayed");
 		Reporter.log("Navigate Bar is displayed");
 		
 			
@@ -96,6 +95,7 @@ public class validateNavigationBar extends base {
 		driver.close();
 		//driver.quit();
 		
+		log.info("Driver closed");
 		Reporter.log("Driver closed");
 	}
 

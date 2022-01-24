@@ -33,13 +33,13 @@ public class validateTitle extends base {
 	public void initialize() throws IOException
 	{
 		driver = initializeDriver();
-		//log.info("Driver is initialized");
+		log.info("Driver is initialized");
 		Reporter.log("Driver is initialized");
 		
         String urlName = prop.getProperty("url");	
 		driver.get(urlName);
 		
-		//log.info("Navigated to Home Page");
+		log.info("Navigated to Home Page");
 		Reporter.log("Navigated to Home Page");
 		
 		
@@ -79,7 +79,7 @@ public class validateTitle extends base {
 		
 		//PASSED: basePageNavigation
 		
-		//log.info("Successfully validated text message");
+		log.info("Successfully validated text message");
 		Reporter.log("Successfully validated text message");
 		
 		
@@ -91,6 +91,7 @@ public class validateTitle extends base {
 		driver.close();
 		//driver.quit();
 		
+		log.info("Driver closed");
 		Reporter.log("Driver closed");
 	}
 

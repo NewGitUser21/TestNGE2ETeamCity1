@@ -41,12 +41,12 @@ public class HomePage extends base{
 	public void initialize() throws IOException
 	{
 		driver = initializeDriver();
-		//log.info("Driver is initialized");
+		log.info("Driver is initialized");
 		Reporter.log("Driver is initialized");
 		
         String urlName = prop.getProperty("url");	
 		driver.get(urlName);
-		//log.info("Navigated to Home Page");
+		log.info("Navigated to Home Page");
 		Reporter.log("Navigated to Home Page");
 		
 	}
@@ -123,7 +123,7 @@ public static void basePageNavigation() throws IOException, InterruptedException
 		
 	lp.getLogin().click();	
 	
-	//log.info("User Login with Invalid credentials");
+	log.info("User Login with Invalid credentials");
 	Reporter.log("User Login with Invalid credentials");
 }
 
@@ -162,6 +162,7 @@ public void tearDown()
 	driver.close();
 	//sdriver.quit();
 	
+	log.info("Driver closed");
 	Reporter.log("Driver closed");
 }
 
