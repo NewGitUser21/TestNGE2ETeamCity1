@@ -9,47 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Validating Page Navigation Bar</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">36,795</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validating Page Title</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">37,516</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Validating Home Page and Traversing through Login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">63,533</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">137,844</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,343</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating Page Navigation Bar &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">E2EDemoTesting.validateNavigationBar</td><td><a href="#m0">basePageNavigation</a></td><td rowspan="1">1643008773725</td><td rowspan="1">4202</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Validating Page Title &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">E2EDemoTesting.validateTitle</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1643008779579</td><td rowspan="1">1409</td></tr><tr><th colspan="4">Validating Page Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">E2EDemoTesting.validateTitle</td><td><a href="#m2">basePageNavigation</a></td><td rowspan="1">1643008776987</td><td rowspan="1">714</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Validating Home Page and Traversing through Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">E2EDemoTesting.HomePage</td><td><a href="#m3">basePageNavigation</a></td><td rowspan="1">1643008775458</td><td rowspan="1">31457</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">cucumberOptions.TestRunner2</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1643131855372</td><td rowspan="1">24724</td></tr></tbody>
 </table>
-<h2>Validating Page Navigation Bar</h2><h3 id="m0">E2EDemoTesting.validateNavigationBar#basePageNavigation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Navigate Bar is displayed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validating Page Title</h2><h3 id="m1">E2EDemoTesting.validateTitle#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
-System info: host: &apos;SOUBHAGYA-PC&apos;, ip: &apos;192.168.43.77&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c70d3b9eb5e9fe81002ac0184009cff3, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51593/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c70d3b9eb5e9fe81002ac0184009cff3
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:428)
-	at E2EDemoTesting.validateTitle.tearDown(validateTitle.java:91)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">E2EDemoTesting.validateTitle#basePageNavigation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
-	at E2EDemoTesting.validateTitle.basePageNavigation(validateTitle.java:78)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validating Home Page and Traversing through Login</h2><h3 id="m3">E2EDemoTesting.HomePage#basePageNavigation</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">User Login with Invalid credentials</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">cucumberOptions.TestRunner2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with valid credentials&quot;</td><td>&quot;Optional[Login to HRM Application]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
