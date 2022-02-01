@@ -1,4 +1,0 @@
-cucumberOptions\TestRunner.class
-cucumberOptions\TestRunner2.class
-stepDefinitions\stepDefinition.class
-CucumberE2E\CucumberTestNGInteg\AppTest.class
