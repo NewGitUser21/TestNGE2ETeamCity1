@@ -1,47 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated text message]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed]]>
+    </line>
+    <line>
+      <![CDATA[User Login with Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-01-25T23:00:54 IST" name="Suite" finished-at="2022-01-25T23:01:22 IST" duration-ms="28343">
+  <suite started-at="2022-02-01T12:27:20 IST" name="Suite" finished-at="2022-02-01T12:29:50 IST" duration-ms="149605">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner2@4d154ccd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-01-25T23:00:54 IST" name="Test" finished-at="2022-01-25T23:01:22 IST" duration-ms="28343">
-      <class name="cucumberOptions.TestRunner2">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner2@4d154ccd]" started-at="2022-01-25T23:00:54 IST" name="setUpClass" finished-at="2022-01-25T23:00:55 IST" duration-ms="998" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6d67f5eb]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-02-01T12:27:20 IST" name="Validating Page Navigation Bar" finished-at="2022-02-01T12:29:05 IST" duration-ms="105388">
+      <class name="E2EDemoTesting.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-02-01T12:27:20 IST" name="initialize" finished-at="2022-02-01T12:28:47 IST" duration-ms="87539" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-02-01T12:28:47 IST" name="basePageNavigation" finished-at="2022-02-01T12:28:48 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate Bar is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateNavigationBar@e041f0c]" started-at="2022-02-01T12:28:48 IST" name="tearDown" finished-at="2022-02-01T12:29:05 IST" duration-ms="17538" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SOUBHAGYA-PC', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43e1fb3e-b905-40ee-bc7a-9208ecd27a92, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200103162918, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2228, moz:profile: C:\Users\DELL\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43e1fb3e-b905-40ee-bc7a-9208ecd27a92]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'SOUBHAGYA-PC', ip: '192.168.43.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [43e1fb3e-b905-40ee-bc7a-9208ecd27a92, close {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200103162918, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2228, moz:profile: C:\Users\DELL\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 43e1fb3e-b905-40ee-bc7a-9208ecd27a92
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:428)
+at E2EDemoTesting.validateNavigationBar.tearDown(validateNavigationBar.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner2@4d154ccd]" started-at="2022-01-25T23:00:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-25T23:01:20 IST" duration-ms="24724" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login to HRM Application]"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EDemoTesting.validateNavigationBar -->
+    </test> <!-- Validating Page Navigation Bar -->
+    <test started-at="2022-02-01T12:27:20 IST" name="Validating Page Title" finished-at="2022-02-01T12:29:05 IST" duration-ms="105414">
+      <class name="E2EDemoTesting.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-02-01T12:27:20 IST" name="initialize" finished-at="2022-02-01T12:28:45 IST" duration-ms="85384" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner2@4d154ccd]" started-at="2022-01-25T23:01:20 IST" name="tearDownClass" finished-at="2022-01-25T23:01:22 IST" duration-ms="2536" status="PASS">
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-02-01T12:28:45 IST" name="basePageNavigation" finished-at="2022-02-01T12:28:48 IST" duration-ms="2308" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Successfully validated text message]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.TestRunner2 -->
-    </test> <!-- Test -->
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.validateTitle@117632cf]" started-at="2022-02-01T12:28:48 IST" name="tearDown" finished-at="2022-02-01T12:29:05 IST" duration-ms="17671" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EDemoTesting.validateTitle -->
+    </test> <!-- Validating Page Title -->
+    <test started-at="2022-02-01T12:27:20 IST" name="Validating Home Page and Traversing through Login" finished-at="2022-02-01T12:29:50 IST" duration-ms="149603">
+      <class name="E2EDemoTesting.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-02-01T12:27:20 IST" name="initialize" finished-at="2022-02-01T12:28:43 IST" duration-ms="83130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-02-01T12:28:44 IST" name="basePageNavigation" finished-at="2022-02-01T12:29:42 IST" duration-ms="58054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Login with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EDemoTesting.HomePage@2bffa76d]" started-at="2022-02-01T12:29:42 IST" name="tearDown" finished-at="2022-02-01T12:29:50 IST" duration-ms="7591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EDemoTesting.HomePage -->
+    </test> <!-- Validating Home Page and Traversing through Login -->
   </suite> <!-- Suite -->
 </testng-results>
