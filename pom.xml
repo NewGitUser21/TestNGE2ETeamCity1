@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>CucumberE2E</groupId>
-  <artifactId>Automation</artifactId>
+  <artifactId>CucumberTestNGInteg</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Automation</name>
+  <name>CucumberTestNGInteg</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -25,41 +25,51 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-
-  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-  <dependency>
+    
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+    <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>7.2.3</version>
-  </dependency>
+    </dependency>
 
-  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-  <dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+    <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>7.2.3</version>
     <scope>test</scope>
-  </dependency>
-  
-  <!-- Maven testNG dependency -->
-   <dependency>
-        <groupId>org.testng</groupId> 
-        <artifactId>testng</artifactId> 
-        <version>6.9.10</version> 
-        <scope>test</scope> 
-   </dependency> 
-  <!-- Selenium Maven dependency -->
-   <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.1.1</version>
-        </dependency>
-   <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-   <dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.11.0</version>
-   </dependency>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.5</version>
+    <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+    <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.2.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.1.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+    <dependency>
+    <groupId>org.hamcrest</groupId>
+    <artifactId>hamcrest-core</artifactId>
+    <version>2.2</version>
+    <scope>test</scope>
+    </dependency>
 
   </dependencies>
 
@@ -75,10 +85,6 @@
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -105,7 +111,19 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-        
+
+        <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-compiler-plugin</artifactId>
+         <version>3.8.1</version>
+         <configuration>
+           <source>11</source>
+           <target>11</target>
+            <encoding>UTF-8</encoding>          
+         </configuration>
+        </plugin>
+
+
         <plugin>
     <groupId>net.masterthought</groupId>
     <artifactId>maven-cucumber-reporting</artifactId>
@@ -118,7 +136,7 @@
                 <goal>generate</goal>
             </goals>
             <configuration>
-                <projectName>Automation</projectName>
+                <projectName>CucumberTestNGInteg</projectName>
                 <skip>false</skip>
                 <outputDirectory>reports/html-reports</outputDirectory>
                 <inputDirectory>target/cucumber-reports</inputDirectory>
@@ -128,9 +146,7 @@
             </configuration>
         </execution>
     </executions>
-</plugin>
-
-
+     </plugin>
 
       </plugins>
     </pluginManagement>

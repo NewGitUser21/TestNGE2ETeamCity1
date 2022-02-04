@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<!-- Running tests in parallel/ using ThreadLocal class (Thread safe using extent report) -->
-<suite name="Suite" parallel = "tests" thread-count="3">
-  <!-- <test thread-count="5" name="Test" parallel = "classes"> -->
-<!-- It is mandatory to pass listener inforation to testNG.xml file -->
-<listeners>
-<listener class-name="E2EDemoTesting.Listeners"/>
-</listeners>
-
-<!-- Running each class as single test case -->
-  <test name="Validating Page Navigation Bar">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="E2EDemoTesting.validateNavigationBar"/> 
+      <class name="cucumberOptions.TestRunner2"/>
     </classes>
-   </test>
-
-  <test name="Validating Page Title">
-    <classes>
-      <class name="E2EDemoTesting.validateTitle"/> 
-    </classes>
-   </test>
-
-  <test name="Validating Home Page and Traversing through Login">
-    <classes>
-      <class name="E2EDemoTesting.HomePage"/> 
-    </classes>
-  </test>
-
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
