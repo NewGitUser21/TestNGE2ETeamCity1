@@ -1,4 +1,8 @@
-cucumberOptions\TestRunner.class
-cucumberOptions\TestRunner2.class
-stepDefinitions\stepDefinition.class
-CucumberE2E\CucumberTestNGInteg\AppTest.class
+TestNGPractice\E2ETesting\base.class
+TestNGPractice\E2ETesting\Listeners.class
+TestNGPractice\E2ETesting\validateNavigationBar.class
+TestNGPractice\E2ETesting\LandingPage.class
+TestNGPractice\E2ETesting\LoginPage.class
+TestNGPractice\E2ETesting\HomePage.class
+TestNGPractice\E2ETesting\validateTitle.class
+TestNGPractice\E2ETesting\ExtentReporterNG.class

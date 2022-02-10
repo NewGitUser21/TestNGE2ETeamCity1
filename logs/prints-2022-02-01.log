@@ -1,6 +1,0 @@
-12:28:23.132 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-12:28:24.068 [TestNG-tests-3] INFO  E2EDemoTesting.base - Driver is initialized
-12:28:43.579 [TestNG-tests-3] INFO  E2EDemoTesting.base - Navigated to Home Page
-12:28:43.588 [TestNG-tests-2] INFO  E2EDemoTesting.base - Driver is initialized
-12:28:43.623 [TestNG-tests-1] INFO  E2EDemoTesting.base - Driver is initialized
-12:28:45.833 [TestNG-tests-2] INFO  E2EDemoTesting.base - Navigated to Home Page

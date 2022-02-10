@@ -1,0 +1,6 @@
+21:49:36.678 [TestNG] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x791c9ad341e17ff0
+21:49:40.593 [TestNG] INFO  TestNGPractice.E2ETesting.base - Driver is initialized
+21:49:40.593 [TestNG] INFO  TestNGPractice.E2ETesting.base - Driver is initialized
+21:49:40.594 [TestNG] INFO  TestNGPractice.E2ETesting.base - Driver is initialized
+21:49:49.566 [TestNG] INFO  TestNGPractice.E2ETesting.base - Navigated to Home Page
+21:50:01.211 [TestNG] INFO  TestNGPractice.E2ETesting.base - Navigated to Home Page

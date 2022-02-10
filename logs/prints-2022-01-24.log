@@ -1,7 +1,0 @@
-19:56:43.976 [TestNG-tests-2] INFO  E2EDemoTesting.base - Navigated to Home Page
-19:56:44.359 [TestNG-tests-2] INFO  E2EDemoTesting.base - Successfully validated text message
-19:56:44.887 [TestNG-tests-2] INFO  E2EDemoTesting.base - Driver closed
-19:56:47.777 [TestNG-tests-1] INFO  E2EDemoTesting.base - Navigated to Home Page
-19:56:49.810 [TestNG-tests-3] INFO  E2EDemoTesting.base - Navigated to Home Page
-19:56:49.930 [TestNG-tests-1] INFO  E2EDemoTesting.base - Navigate Bar is displayed
-19:56:50.472 [TestNG-tests-1] INFO  E2EDemoTesting.base - Driver closed

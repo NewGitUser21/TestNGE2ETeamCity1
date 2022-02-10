@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="TestNGPractice.E2ETesting.Listeners"/>
+  </listeners>
+  <test name="Validating Page Navigation Bar">
+    <classes>
+      <class name="TestNGPractice.E2ETesting.validateNavigationBar">
+        <methods>
+          <include name=".*"/>
+        </methods>
+      </class> <!-- TestNGPractice.E2ETesting.validateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Page Navigation Bar -->
+  <test name="Validating Page Title">
+    <classes>
+      <class name="TestNGPractice.E2ETesting.validateTitle">
+        <methods>
+          <include name=".*"/>
+        </methods>
+      </class> <!-- TestNGPractice.E2ETesting.validateTitle -->
+    </classes>
+  </test> <!-- Validating Page Title -->
+  <test name="Validating Home Page and Traversing through Login">
+    <classes>
+      <class name="TestNGPractice.E2ETesting.HomePage">
+        <methods>
+          <include name=".*"/>
+        </methods>
+      </class> <!-- TestNGPractice.E2ETesting.HomePage -->
+    </classes>
+  </test> <!-- Validating Home Page and Traversing through Login -->
+</suite> <!-- Failed suite [Suite] -->

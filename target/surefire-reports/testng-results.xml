@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Driver is initialized]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to Home Page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully validated text message]]>
+    </line>
+    <line>
+      <![CDATA[Navigate Bar is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User Login with Invalid credentials]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-07T14:40:16Z" name="Suite" finished-at="2022-02-07T14:41:08Z" duration-ms="51133">
+    <groups>
+    </groups>
+    <test started-at="2022-02-07T14:40:16Z" name="Validating Page Navigation Bar" finished-at="2022-02-07T14:40:54Z" duration-ms="37417">
+      <class name="TestNGPractice.E2ETesting.validateNavigationBar">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestNGPractice.E2ETesting.validateNavigationBar@79c4715d]" started-at="2022-02-07T20:10:17Z" name="basePageNavigation" finished-at="2022-02-07T20:10:54Z" duration-ms="37322" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[Navigate Bar is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- TestNGPractice.E2ETesting.validateNavigationBar -->
+    </test> <!-- Validating Page Navigation Bar -->
+    <test started-at="2022-02-07T14:40:16Z" name="Validating Page Title" finished-at="2022-02-07T14:40:54Z" duration-ms="37250">
+      <class name="TestNGPractice.E2ETesting.validateTitle">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestNGPractice.E2ETesting.validateTitle@2e27d72f]" started-at="2022-02-07T20:10:17Z" name="basePageNavigation" finished-at="2022-02-07T20:10:54Z" duration-ms="37111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[Successfully validated text message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- TestNGPractice.E2ETesting.validateTitle -->
+    </test> <!-- Validating Page Title -->
+    <test started-at="2022-02-07T14:40:16Z" name="Validating Home Page and Traversing through Login" finished-at="2022-02-07T14:41:08Z" duration-ms="51133">
+      <class name="TestNGPractice.E2ETesting.HomePage">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestNGPractice.E2ETesting.HomePage@126be319]" started-at="2022-02-07T20:10:17Z" name="basePageNavigation" finished-at="2022-02-07T20:11:08Z" duration-ms="51038" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver is initialized]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to Home Page]]>
+            </line>
+            <line>
+              <![CDATA[User Login with Invalid credentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- TestNGPractice.E2ETesting.HomePage -->
+    </test> <!-- Validating Home Page and Traversing through Login -->
+  </suite> <!-- Suite -->
+</testng-results>
